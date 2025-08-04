@@ -1,0 +1,115 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Introducción a JavaScript Moderno",
+      "author": "Laura Gómez",
+      "content": "En este artículo exploramos ES6 y sus principales características...",
+      "published": true,
+      "createdAt": "2025-07-15T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Guía básica de Git y GitHub",
+      "author": "Carlos Ramírez",
+      "content": "Aprende los comandos esenciales para controlar versiones en tus proyectos.",
+      "published": true,
+      "createdAt": "2025-06-20T14:30:00Z"
+    },
+    {
+      "id": "3",
+      "title": "10 extensiones esenciales para VS Code",
+      "author": "Ana Torres",
+      "content": "Estas herramientas mejorarán tu productividad como desarrollador.",
+      "published": true,
+      "createdAt": "2025-07-01T09:45:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Cómo usar Docker para desarrollo local",
+      "author": "José Martínez",
+      "content": "Docker simplifica la configuración de entornos locales. Aquí te explico cómo.",
+      "published": false,
+      "createdAt": "2025-08-01T16:20:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Errores comunes al aprender Python",
+      "author": "Marta Ruiz",
+      "content": "Evita estos errores si estás empezando con Python.",
+      "published": true,
+      "createdAt": "2025-07-10T08:15:00Z"
+    },
+    {
+      "id": "6",
+      "title": "Entendiendo React Hooks",
+      "author": "David López",
+      "content": "¿Qué son los hooks en React y cómo usarlos correctamente?",
+      "published": true,
+      "createdAt": "2025-06-28T11:10:00Z"
+    },
+    {
+      "id": "7",
+      "title": "Cómo estructurar proyectos Node.js",
+      "author": "Patricia Herrera",
+      "content": "Una guía para mantener tus proyectos organizados y escalables.",
+      "published": false,
+      "createdAt": "2025-08-02T13:00:00Z"
+    },
+    {
+      "id": "8",
+      "title": "Mejores prácticas de seguridad en APIs REST",
+      "author": "Andrés Paredes",
+      "content": "Protege tus endpoints con autenticación, validación y más.",
+      "published": true,
+      "createdAt": "2025-07-18T17:40:00Z"
+    },
+    {
+      "id": "9",
+      "title": "Testing con Jest: una introducción",
+      "author": "Lucía Vega",
+      "content": "Aprende cómo hacer pruebas unitarias y de integración con Jest.",
+      "published": true,
+      "createdAt": "2025-07-25T12:00:00Z"
+    },
+    {
+      "id": "10",
+      "title": "Qué es y cómo usar TypeScript",
+      "author": "Ricardo Álvarez",
+      "content": "Una mirada al tipado estático en JavaScript con TypeScript.",
+      "published": true,
+      "createdAt": "2025-07-30T15:00:00Z"
+    },
+    {
+      "id": "11",
+      "title": "Introducción a la programación de bajo nivel",
+      "author": "Roberto Zarate",
+      "content": "En este artículo se explorará los principios básicos de la programación de bajo nivel con el lenguajge C",
+      "published": true,
+      "createdAt": "2025-08-04T02:40:07.675Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "ever",
+      "password": "ever123",
+      "role": "admin",
+      "name": "Administrador"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user123",
+      "role": "user",
+      "name": "Usuario Regular"
+    },
+    {
+      "id": 3,
+      "username": "editor",
+      "password": "editor123",
+      "role": "editor",
+      "name": "Editor de Contenido"
+    }
+  ]
+}

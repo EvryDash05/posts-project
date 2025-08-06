@@ -84,9 +84,17 @@
       "id": "11",
       "title": "Introducción a la programación de bajo nivel",
       "author": "Roberto Zarate",
-      "content": "En este artículo se explorará los principios básicos de la programación de bajo nivel con el lenguajge C",
+      "content": "En este artículo se explorará los principios básicos de la programación de bajo nivel con el lenguaje C",
       "published": true,
       "createdAt": "2025-08-04T02:40:07.675Z"
+    },
+    {
+      "id": "45bb",
+      "title": "Introducción al Markting",
+      "author": "Jorge Alfredo",
+      "content": "En este artículo se hará una breve introducción al marketing ",
+      "published": true,
+      "createdAt": "2025-08-06T07:08:56.002Z"
     }
   ],
   "users": [

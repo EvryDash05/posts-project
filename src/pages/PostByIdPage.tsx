@@ -3,6 +3,7 @@ import { usePostById } from "../hooks/postHooks";
 import MainLayout from "../layout/MainLayout";
 import PostCard from "../components/PostCard";
 import PostCarrusel from "../components/PostCarrusel";
+import SpinnerLoader from "../components/SpinnerLoader";
 
 const PostByIdPage: React.FC = () => {
 
@@ -12,8 +13,8 @@ const PostByIdPage: React.FC = () => {
     return (
         <MainLayout>
             <div className="min-h-screen flex flex-col place-items-center justify-center">
-                <div >
-                    {isFetching && (<h1>Cargando...</h1>)}
+                <div>
+                    {isFetching && (<SpinnerLoader />)}
                     {isError && (<h1>{error?.message}</h1>)}
                     {post && (<PostCard post={post} />)}
                 </div>

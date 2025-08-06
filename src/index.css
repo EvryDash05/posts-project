@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
-:root {
-    background-color: dimgrey;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

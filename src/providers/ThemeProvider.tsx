@@ -11,10 +11,8 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
     useEffect(() => {
         if (theme === 'dark') {
             document.documentElement.classList.add('dark');
-            console.log(`Tema dark añadido, ${theme}`)
         } else {
             document.documentElement.classList.remove('dark');
-            console.log(`Tema dark removido, ${theme}`)
         }
     }, [theme]);
 
